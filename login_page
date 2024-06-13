@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <h2>Login Page</h2>
+    <form action="LoginServlet" method="post">
+        Email: <input type="text" name="email" required><br>
+        Password: <input type="password" name="password" required><br>
+        <input type="checkbox" name="isMember" value="true"> Member<br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
